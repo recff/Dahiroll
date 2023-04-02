@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Sushi Menu</title>
+
+	<style>
+
+		body {
+
+			font-family: Arial, sans-serif;
+
+			background-color: #f5f5f5;
+
+		}
+
+		h1 {
+
+			text-align: center;
+
+			margin-top: 50px;
+
+			color: #333;
+
+		}
+
+		.container {
+
+			display: flex;
+
+			flex-wrap: wrap;
+
+			justify-content: center;
+
+			align-items: flex-start;
+
+			margin-top: 30px;
+
+			max-width: 800px;
+
+			margin: 0 auto;
+
+		}
+
+		.item {
+
+			display: flex;
+
+			flex-direction: column;
+
+			align-items: center;
+
+			background-color: #fff;
+
+			box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+			margin: 20px;
+
+			padding: 20px;
+
+			border-radius: 5px;
+
+			width: 300px;
+
+		}
+
+		.item img {
+
+			max-width: 100%;
+
+			margin-bottom: 10px;
+
+		}
+
+		.item h2 {
+
+			font-size: 24px;
+
+			margin-bottom: 10px;
+
+			color: #333;
+
+		}
+
+		.item p {
+
+			font-size: 16px;
+
+			color: #666;
+
+			margin-bottom: 10px;
+
+			text-align: center;
+
+			line-height: 1.2;
+
+		}
+
+		.item .price {
+
+			font-size: 20px;
+
+			font-weight: bold;
+
+			color: #333;
+
+			margin-top: 10px;
+
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<h1>Sushi Menu</h1>
+
+	<div class="container">
+
+		<div class="item">
+
+			<img src="https://www.sushishop.fr/upload/fond/komaki/maki-california-crab-f.jpg" alt="California Roll">
+
+			<h2>California Roll</h2>
+
+			<p>A classic sushi roll made with crab, avocado, and cucumber.</p>
+
+			<p class="price">$7.50</p>
+
+		</div>
+
+		<div class="item">
+
+			<img src="https://www.sushishop.fr/upload/fond/temaki-salmon-f.jpg" alt="Salmon Temaki">
+
+			<h2>Salmon Temaki</h2>
+
+			<p>A hand-rolled cone-shaped sushi filled with fresh salmon and rice.</p>
+
+			<p class="price">$4.50</p>
+
+		</div>
+
+		<div class="item">
+
+			<img src="https://www.sushishop.fr/upload/fond/komaki/maki-avocado-f.jpg" alt="Avocado Roll">
+
+			<h2>Avocado Roll</h2>
+
+			<p>A vegetarian sushi roll made with avocado and cucumber.</p>
+
+			<p class="price">$6.00</p>
+
+		</div>
+
+		<div class="item">
+
+			<img src="https://www.sushishop.fr/upload/fond/temaki-salmon-mango-f.jpg" alt="Salmon Mango Temaki">
+
+			<h2>Salmon Mango Temaki</h2>
